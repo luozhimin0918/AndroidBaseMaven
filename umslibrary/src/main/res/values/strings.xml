@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">UMS</string>
+    <string name="toast_common_net_error">网络出错，请检查当前网络是否可用</string>
+    <string name="toast_common_server_error">服务器异常，请稍后再试</string>
+    <string name="toast_common_session_error">登录信息已失效,请重新登录</string>
+    <string name="request_data_error">请求数据出错，请重试！</string>
+    <!-- 4.0 xlistview 上拉下拉 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <!-- common -->
+    <string name="toast_sdcard_error">sd卡出错</string>
+</resources>

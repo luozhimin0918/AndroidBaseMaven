@@ -1,0 +1,33 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.jfrog.bintray'
+def siteUrl = 'https://github.com/wyouflf/xUtils3'
+def gitUrl = 'https://github.com/wyouflf/xUtils3.git'
+group = "org.xutils"
+version = "3.2.0"
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 20150107
+        versionName version
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            java.srcDirs = ['src/main/java', 'src/main/java_compat']
+        }
+    }
+}
+
+dependencies {
+}
